@@ -1,0 +1,258 @@
+.profile{
+    display: flex;
+}
+.leftside{
+    width: 30%;
+    background-color:#D0D4CA;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 15px;
+}
+.start{
+        text-align: center;
+        
+    >img{
+       text-align: center;
+       height: 80px;
+       width: 80px;
+       border-radius: 50px;
+       margin-top: 10px;
+    }
+    >h3{
+        text-align: center;
+        font-family: 'sans-serif';
+        font-size: 15px;
+        margin: 0px;
+    }
+    >p{
+        text-align: center;
+        font-size: 15px;
+      
+    }
+}
+
+.text{
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;    
+    >p{
+    >i{
+        position: relative;
+        top: 1px;
+        bottom: 5px;
+        font-size: 15px;
+    }
+ }
+}
+.social{
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    top: 80px;
+    >h4 {
+    letter-spacing: 10px;
+    }   
+    >p{
+        >i{
+            position: relative;
+            top: 1px;
+            bottom: 5px;
+        }
+     }
+}
+
+.file{
+    padding-top: 5px;
+    text-align: left;
+    padding-left: 10px;
+    >h4 {
+    letter-spacing: 10px;
+    }
+}
+
+.Education{
+    padding-left: 10px;
+    padding-top: 5px;
+    margin: 0px 0px 10px 0px;
+    text-align: left;
+    >h4 {
+        letter-spacing: 10px;
+        margin: 10px 0px 0px 0px;
+} 
+}
+.educon{
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    /* color: rgb(41, 39, 39); */
+}
+.eduimg{
+    padding-right: 1rem;
+
+}
+
+.edubullet{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color:rgb(80, 76, 76);
+    border-radius: 50%;
+    margin-top: 1.3rem;
+    font-weight:100px;
+}
+   
+.eduline {
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color:rgb(80, 76, 76);
+    transform: translate(7px, 0);
+}
+.edude{
+    display: flex;
+    flex-direction: column;
+    >h5 {
+        margin: 20px 0px 4px 0px;
+    }
+    >p {
+    margin: 0px 0px 0px 0px;
+    }
+   }
+
+.skill{
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    >h4 {
+        letter-spacing: 10px;
+    }
+ >ul{
+    padding-left: 20px;
+    columns: 2;
+    >li{
+        padding: 3px;
+    }
+}
+} 
+.rightside{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    text-align:left ;
+    padding-left: 10px;
+    font-size: 15px;
+
+}
+.experience{
+    padding-top: 5px;
+    padding-left: 10px;
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+    >h4 {
+        letter-spacing: 10px;
+        margin: 0px 0px 0px 10px;
+    }
+    >h5{
+    padding-left: 10px;
+    margin: 0px 0px 0px 0px;
+    font-size: larger;
+    font-weight: bold; 
+  }
+  >p{
+    font-size: 33px;
+    padding-left: 10px;
+    margin: 10px 0px 20px 20px;
+
+}
+}
+.certificates{
+    padding-top: 5px;
+    margin: 20px 0px 0px 0px;
+    >h4 {
+    letter-spacing: 10px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin: 10px 0px 0px 10px;
+    }
+    >h5 {
+        font-size: 15px;
+        padding-left: 10px;
+        margin: 20px 0px 0px 10px;
+    }
+    >p{
+        font-size: 14px;
+        padding-left: 10px;
+        margin: 10px 0px 20px 10px;
+    }
+}
+
+.refer{
+    padding-top: 5px;
+    margin: 0px 0px 0px 10px;
+    >h4 {
+        letter-spacing: 10px;
+        padding-left: 10px;
+    }
+    >ul{
+        columns: 2;
+        list-style: none;
+        padding-left:10px ;
+        font-size: 12px;
+
+        >li{
+            text-align: left;
+            padding: 2px;
+    }
+    }
+}
+.list1{
+    font-size: 20PX;
+    font-size: larger;
+    font-weight: bold;
+}
+.list2{
+    font-size: 20PX;
+    font-size: larger;
+    font-weight: bold;
+}
+.langu{
+    padding-top: 5px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 500px;
+    margin: 0px 0px 0px 10px;
+    >h4 {
+        letter-spacing: 10px;
+    }
+ >ul{
+    padding-left: 20px;
+    columns: 3;
+}
+} 
+.inter{
+  padding-top: 5px;
+  margin: 0px 0px 0px 10px;
+  >h4 {
+    letter-spacing: 10px;
+    padding-left: 10px;
+  }
+    >ul{
+        columns: 4;
+        padding: 10px 500px 0px 10px;
+        list-style: none;
+    }
+}
+.ico1{
+   
+    padding-left: 10px;
+}
+.ico2{
+   
+    padding-left: 12px;
+}.ico3{
+   
+    padding-left: 8px;
+}.ico4{
+   
+    padding-left: 12px;
+}
+
